@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "TaskPlaner"
+    }
+  },
+  "defaultProject": "TaskPlaner",
+  "cli": {
+    "analytics": "8e94ebd1-0de5-4d8d-8016-d798be05c484"
+  }
 }
