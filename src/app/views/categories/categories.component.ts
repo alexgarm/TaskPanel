@@ -11,12 +11,16 @@ export class CategoriesComponent implements OnInit {
 
   categories: Category[];
 
+
+
   constructor(private dataHandler: DataHandlerService) { }
+
+
 
   ngOnInit(): void {
 
     this.categories = this.dataHandler.getCateries();
-    
+
   }
 
 }
