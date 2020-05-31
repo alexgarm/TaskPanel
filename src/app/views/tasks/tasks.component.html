@@ -8,13 +8,15 @@
         <thead class="text-warning">
           <th>ID</th>
           <th>Name</th>
-          <th>Salary</th>
-          <th>Country</th>
+          <th>Category</th>
+          <th>Priority</th>
+          <th>Status</th>
+          <th>Date</th>
         </thead>
         <tbody>
           <tr *ngFor="let task of tasks">
             <td>{{task.id}}</td>
-            <td>Dakota Rice</td>
+            <td>{{task.title}}</td>
             <td>$36,738</td>
             <td>Niger</td>
           </tr>
